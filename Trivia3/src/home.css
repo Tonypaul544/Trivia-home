@@ -10,7 +10,7 @@
 
 .playerontainer {
   width: 50%;
-  height: 70vh;
+  height: fit-content;
   padding: 20px;
   box-sizing: border-box;
   display: flex;
@@ -42,7 +42,7 @@
 
 .selectPlayer {
   width: 80%;
-  height: 60px;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,8 +51,8 @@
 }
 
 .selectPlayer button {
-  width: 50%;
-  height: 35px;
+  width: 55%;
+  height: 50px;
   font-weight: 700;
   font-size: 18px;
   border: 1.5px solid #F73904;
@@ -93,15 +93,16 @@
 
 .options {
   width: 80%;
-  height: 60px;
+  height: auto;
   display: flex;
   flex-direction: column;
-  margin: 55px;
+  margin: 5px auto;
+  padding: 10px;
   align-items: center;
   justify-content: center;
   gap: 20px;
   animation: fadein2 2.4s ease-in-out;
-
+  /* background-color: #588350; */
 }
 
 @keyframes fadein2 {
@@ -117,8 +118,8 @@
 
 .options button {
   /* all: unset; */
-  width: 45%;
-  min-height: 30px;
+  width: 55%;
+  min-height: 50px;
   color: #fff;
   font-weight: 600;
   background: linear-gradient(to right, #588350, #F96136, #FA7A57);
